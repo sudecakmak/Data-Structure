@@ -21,3 +21,15 @@ lower priority
 “20 2 3 * + 2 8 * 5 + 4 * +” postfix
 
 ![Screenshot 2022-10-23 134411](https://user-images.githubusercontent.com/102357822/197387682-d7127fa2-c27f-4df2-8f4c-e097069ae85c.png)
+
+## Deque
+
+I use a doubly-linked list to implement the Deque.
+
+All operations run in O(1).
+
+Operations are addFront, addRear, removeFront, removeRear, front, rear, ısEmpty, size.
+
+
+![Screenshot 2022-11-05 201507](https://user-images.githubusercontent.com/102357822/200132754-6ff105ce-fde7-4a17-b56e-ee28f869c22c.png)
+
