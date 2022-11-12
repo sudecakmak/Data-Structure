@@ -2,6 +2,13 @@
 Projects I made in Data Structure. I use visual studio for my projects.
 
 ## Stack
+
+Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+
+There are many real-life examples of a stack. Consider an example of plates stacked over one another in the canteen. The plate which is at the top is the first one to be removed, i.e. the plate which has been placed at the bottommost position remains in the stack for the longest period of time. So, it can be simply seen to follow LIFO(Last In First Out)/FILO(First In Last Out) order.
+
+I use stack to solve arithmetic calculations.
+
 (1) When an operand is encountered, output it
 
 (2) When ’(’ is encountered, push it
@@ -23,6 +30,12 @@ lower priority
 ![Screenshot 2022-10-23 134411](https://user-images.githubusercontent.com/102357822/197387682-d7127fa2-c27f-4df2-8f4c-e097069ae85c.png)
 
 ## Deque
+
+A queue is defined as a linear data structure that is open at both ends and the operations are performed in First In First Out (FIFO) order.
+
+We define a queue to be a list in which all additions to the list are made at one end, and all deletions from the list are made at the other end.  The element which is first pushed into the order, the operation is first performed on that.
+
+Position of the entry in a queue ready to be served, that is, the first entry that will be removed from the queue, is called the front of the queue(sometimes, head of the queue), similarly, the position of the last entry in the queue, that is, the one most recently added, is called the rear (or the tail) of the queue. See the below figure.
 
 I use a doubly-linked list to implement the Deque.
 
