@@ -11,9 +11,9 @@ Projects I made in Data Structure. I use visual studio for my projects.
 
 # Stack
 
-Stack is a **linear data structure** which follows a particular order in which the operations are performed. The order may be *LIFO(Last In First Out)* or *FILO(First In Last Out)*.
+> Stack is a **linear data structure** which follows a particular order in which the operations are performed. The order may be *LIFO(Last In First Out)* or *FILO(First In Last Out)*.
 
-There are many real-life examples of a stack. Consider an example of plates stacked over one another in the canteen. The plate which is at the top is the first one to be removed, i.e. the plate which has been placed at the bottommost position remains in the stack for the longest period of time. So, it can be simply seen to follow LIFO(Last In First Out)/FILO(First In Last Out) order.
+> There are many real-life examples of a stack. Consider an example of plates stacked over one another in the canteen. The plate which is at the top is the first one to be removed, i.e. the plate which has been placed at the bottommost position remains in the stack for the longest period of time. So, it can be simply seen to follow LIFO(Last In First Out)/FILO(First In Last Out) order.
 
 ## Project Description
 
@@ -43,11 +43,9 @@ lower priority
 
 # Deque
 
-A queue is defined as a **linear data structure that is open at both ends** and the operations are performed in *First In First Out (FIFO)* order.
+> A queue is defined as a **linear data structure that is open at both ends** and the operations are performed in *First In First Out (FIFO)* order.
 
-We define a queue to be a list in which all **additions to the list are made at one end**, and all **deletions from the list are made at the other end**. The element which is first pushed into the order, the operation is first performed on that.
-
-Position of the entry in a queue ready to be served, that is, the first entry that will be removed from the queue, is called the *front (or the head)* of the queue, similarly the position of the last entry in the queue, that is, the one most recently added, is called the *rear (or the tail)* of the queue.
+> We define a queue to be a list in which all **additions to the list are made at one end**, and all **deletions from the list are made at the other end**. The element which is first pushed into the order, the operation is first performed on that. Position of the entry in a queue ready to be served, that is, the first entry that will be removed from the queue, is called the *front (or the head)* of the queue, similarly the position of the last entry in the queue, that is, the one most recently added, is called the *rear (or the tail)* of the queue.
 
 ## Project Description
 
@@ -62,15 +60,13 @@ Operations are addFront, addRear, removeFront, removeRear, front, rear, ısEmpty
 
 # Threaded Binary Search Tree
 
-A Threaded BST is a *BST* where a the *normally NULL left/right child pointers of a BST node point to the in-order predecessor/in-order successor node* in the BST respectively. This allows us to **walk over the threaded BST in forward or backward direction iteratively in O(n)** time, where “n” is the number of keys in the tree.
+> A Threaded BST is a *BST* where a the *normally NULL left/right child pointers of a BST node point to the in-order predecessor/in-order successor node* in the BST respectively. This allows us to **walk over the threaded BST in forward or backward direction iteratively in O(n)** time, where “n” is the number of keys in the tree.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/102357822/201494619-4ce11ce1-3832-4e5b-b8ae-8eb45c342875.png">
 </p>
 
-Pay special attention to node that have 0 or 1 child. In a BST, the pointers pointing to a non-existent child would be set to NULL. But in the threaded BST, the right child pointer that would normally be NULL points to the in-order successor node.
-
-Similarly, a left child pointer that would normally be NULL points to the in-order predecessor node. If the in-order predecessor/successor does not exist, then and only then is the corresponding pointer set to NULL.
+> Pay special attention to node that have 0 or 1 child. In a BST, the pointers pointing to a non-existent child would be set to NULL. But in the threaded BST, the right child pointer that would normally be NULL points to the in-order successor node. Similarly, a left child pointer that would normally be NULL points to the in-order predecessor node. If the in-order predecessor/successor does not exist, then and only then is the corresponding pointer set to NULL.
 
 ## Project Description
 
@@ -90,17 +86,17 @@ Operations are add, remove, getRoot, find, min, max, previous, next.
 
 # AVL Tree
 
-AVL Tree can be defined as *height balanced binary search tree* in which each node is associated with a *balance factor* which is calculated by subtracting the height of its right sub-tree from that of its left sub-tree.
+> AVL Tree can be defined as *height balanced binary search tree* in which each node is associated with a *balance factor* which is calculated by subtracting the height of its right sub-tree from that of its left sub-tree.
 
-Tree is said to be balanced if balance factor of each node is in between -1 to 1, otherwise, the tree will be unbalanced and need to be balanced.
+> Tree is said to be balanced if balance factor of each node is in between -1 to 1, otherwise, the tree will be unbalanced and need to be balanced.
 
-**Balance Factor (k) = height (left(k)) - height (right(k))**
+####  **Balance Factor (k) = height (left(k)) - height (right(k))**
 
-If balance factor of any node is **1**, it means that the *left sub-tree is one level higher than the right sub-tree*.
+> If balance factor of any node is **1**, it means that the *left sub-tree is one level higher than the right sub-tree*.
 
-If balance factor of any node is **0**, it means that the *left sub-tree and right sub-tree contain equal height*.
+> If balance factor of any node is **0**, it means that the *left sub-tree and right sub-tree contain equal height*.
 
-If balance factor of any node is **-1**, it means that the *left sub-tree is one level lower than the right sub-tree*.
+> If balance factor of any node is **-1**, it means that the *left sub-tree is one level lower than the right sub-tree*.
 
 ## Project Description
 
