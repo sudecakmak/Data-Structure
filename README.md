@@ -3,10 +3,22 @@ Projects I made in Data Structure. I use visual studio for my projects.
 
 
 ## Table of Contents
+- [Linked List](#linked-list)
 - [Stack](#stack)
 - [Deque](#deque)
 - [Threaded Binary Search Tree](#threaded-binary-search-tree)
 - [AVL Tree](#avl-tree)
+
+# Linked List
+
+> A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers .
+
+
+## Polynomials Using Linked Lists
+
+
+## Project Description
+
 
 
 # Stack
