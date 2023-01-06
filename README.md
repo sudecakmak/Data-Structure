@@ -16,6 +16,11 @@ Projects I made in Data Structure. I use visual studio for my projects.
 
 ## Polynomials Using Linked Lists
 
+The terms of the polynomial will be stored in a singly linked list in decreasing order of the exponent values.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/102357822/211004244-fb878652-b023-4fbe-a37d-3929f4a48e18.png">
+</p>
 
 ## Project Description
 
