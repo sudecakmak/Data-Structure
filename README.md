@@ -23,7 +23,17 @@ The terms of the polynomial will be stored in a singly linked list in decreasing
 </p>
 
 ## Project Description
+Implement **polynomial functions** using linked list.
 
+### Polynomial Node
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/102357822/211155555-836e4218-9a36-4e93-999a-c84a2db51e99.png">
+</p>
+
+### Polynomial Functions
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/102357822/211155561-26bea225-90bd-4513-a0e5-f3921586dbd5.png">
+</p>
 
 
 # Stack
