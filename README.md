@@ -25,6 +25,10 @@ The terms of the polynomial will be stored in a singly linked list in decreasing
 ## Project Description
 Implement **polynomial functions** using linked list.
 
+Each term (except may be the first term) starts with a sign char (+ or -). Following the sign, the coefficient is specified followed by the ‘x’ and ‘ˆ’ chars. Finally comes the exponent. Notice that if the coefficient is 1, then it may be omitted as in the expression “xˆ3”. Similarly, if the exponent is 1, then it may be omitted as in the expression “2x”. Finally, if the exponent is 0, ‘x’ and ’ˆ’ chars are omitted altogether, e.g., “44”.
+
+You may assume that the polynomial expressions will be well-formed, that is, they will not contain any errors. But there may be one or more spaces between the terms, i.e., before or after the sign symbols ‘+’ and ‘-’. To parse a given expression string, we suggest that you create a new expression string by removing all space chars. Then parse the new string one term at a time. Notice that each term of the polynomial is separated by a sign symbol.
+
 ### Polynomial Node
 <p align="center">
   <img src="https://user-images.githubusercontent.com/102357822/211155555-836e4218-9a36-4e93-999a-c84a2db51e99.png">
